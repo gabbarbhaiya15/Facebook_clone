@@ -36,10 +36,7 @@ export default function  Activedata(){
  dp={hima}
  dname="Himawari"
  />
-  <Active 
- dp={reel2}
- dname="Red-Haired Shanks"
- />
+
   <Active 
  dp={reel3}
  dname="akatsuki"
