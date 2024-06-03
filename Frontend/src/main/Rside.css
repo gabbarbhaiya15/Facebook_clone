@@ -1,0 +1,50 @@
+.dibba{
+    float: right;
+    position: absolute;
+    left: 77%;
+    background-color:  #E8E9EB;
+      width: 300px;
+      height: 570px;
+      overflow-y: hidden;
+
+}
+
+#adv{
+width: 90px !important;
+height: 90px;
+position: relative;
+top: 5px;
+
+
+}
+#advb{ 
+  width: 220px !important;
+  height: 100px !important;
+  border-radius: 10px !important;
+  background-color:  #E8E9EB;
+  
+  display: flex !important;
+  justify-content: flex-start!important;
+  font-weight: 500;
+margin-bottom: -10px !important;
+  
+   }
+   #advb:hover{
+    background-color: #ccccce;
+   }
+   .word{
+    position: relative;
+    top: 30%;
+    left: 7%;
+    font-style: italic;
+    font-size: larger;
+   }
+   .line-3{
+    height: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(187, 186, 186);
+}
+.dibba:hover{
+  overflow-y: auto !important;
+}
