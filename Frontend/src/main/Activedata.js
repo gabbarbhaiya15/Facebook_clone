@@ -6,7 +6,7 @@ import chopper from  '../Image/chopperlg.png';
 import hima from     '../Image/himalg.png';
 import guy2 from     '../Image/guysm.png';
 import doremon2 from '../Image/doremonlg.png';
-import reel2 from    '../Image/reel2.png';
+
 import reel3 from    '../Image/reel3.png';
 import reel4 from    '../Image/reel4.png';
 import reel5 from    '../Image/reel5.png';
