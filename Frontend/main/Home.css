@@ -1,0 +1,359 @@
+
+#bigbox{
+
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+
+
+
+    
+    position: relative;
+    left: 8vw;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+#bigbox:hover{
+    overflow-y: auto !important;
+}
+
+#hbox{
+
+    
+    width: 44vw !important;
+     
+  
+    
+}
+#box10{
+   
+    margin-left: 0 !important;
+    margin-top: 1vh !important;
+    
+    width: 100%;
+    height: 38vh !important;
+    border-radius: 10px;
+    background-color: white;
+    overflow-x: auto !important;
+    display: flex !important;
+    justify-content: flex-start;
+    box-shadow:
+    0.1px 0.1px 0.6px rgba(0, 0, 0, 0.031),
+    0.2px 0.2px 1.2px rgba(0, 0, 0, 0.043),
+    0.4px 0.3px 1.7px rgba(0, 0, 0, 0.053),
+    0.6px 0.5px 2.3px rgba(0, 0, 0, 0.061),
+    1px 0.8px 2.9px rgba(0, 0, 0, 0.069),
+    1.5px 1.2px 3.8px rgba(0, 0, 0, 0.079),
+    2.5px 2px 5.3px rgba(0, 0, 0, 0.092),
+    5px 4px 10px rgba(0, 0, 0, 0.12)
+  ;
+    }
+    #box10::-webkit-scrollbar{
+        display: none !important;
+    }
+#icon{
+    font-size: 30px !important;
+}
+#reels{
+    width: 30px !important;
+    height: 30px !important;
+    position: relative;
+    top: -4px;
+}
+#head{ 
+    width:20vw  !important;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+#read{ position: relative;
+    left: -60px;
+    width: 20vw !important;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.card{position: relative;
+    top: 75px;
+    left: -700px;
+    width: 120px;
+    height: 65% !important;
+}
+#story1{
+    height:125px ;
+    position: absolute;
+    top : -10px
+    
+    
+}
+#add{ width: 35px; height:35px;
+    position: relative;
+    top: 60%;
+    left:38%;
+    clip-path: circle(17px at center);
+  }
+ #note{
+    background-color: white;
+    width: 44vw;
+    position: relative;
+    
+    margin-top: 5%;
+    padding: 10px ;
+    border-radius: 10px !important;
+    box-shadow:
+    0.1px 0.1px 0.6px rgba(0, 0, 0, 0.031),
+    0.2px 0.2px 1.2px rgba(0, 0, 0, 0.043),
+    0.4px 0.3px 1.7px rgba(0, 0, 0, 0.053),
+    0.6px 0.5px 2.3px rgba(0, 0, 0, 0.061),
+    1px 0.8px 2.9px rgba(0, 0, 0, 0.069),
+    1.5px 1.2px 3.8px rgba(0, 0, 0, 0.079),
+    2.5px 2px 5.3px rgba(0, 0, 0, 0.092),
+    5px 4px 10px rgba(0, 0, 0, 0.12)
+  ;
+}
+#text1{ margin-left: 5px;
+    width: 520px !important;
+    background-color:  #eeecec;
+
+    border: #eeecec;
+    
+    
+
+}
+.line-2{
+    height: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(231, 229, 229);
+
+    
+}
+#notepic{
+    width: 30px !important;
+     height: 30px !important;
+     position: relative !important;
+     top: 0px;
+     margin-right: 4px;
+
+}
+#note-icons-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+#lists{ 
+    width: 10vw !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color:  white ;
+    
+    display: flex !important;
+    justify-content: center !important;
+    font-weight: 450;
+    margin-bottom: -2px;
+     }
+#lists:hover{
+    background-color: rgb(190, 190, 201);
+}
+
+
+
+@media screen  and (max-width: 700px){
+
+
+    #bigbox{
+
+        width: 86vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+       
+    
+    
+    
+        
+        position: relative;
+        left: 8vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    
+    #bigbox:hover{
+        overflow-y: auto !important;
+    }
+    
+    #hbox{
+    
+        
+        width: 84vw !important;
+     
+         
+      
+        
+    }
+    #box10{
+      
+        margin-left: 0 !important;
+        margin-top: 1vh !important;
+        
+        width: 100%;
+        height: 32vh !important;
+        border-radius: 10px;
+        background-color: white;
+        overflow-x: auto !important;
+        display: flex !important;
+        justify-content: flex-start;
+        box-shadow:
+        0.1px 0.1px 0.6px rgba(0, 0, 0, 0.031),
+        0.2px 0.2px 1.2px rgba(0, 0, 0, 0.043),
+        0.4px 0.3px 1.7px rgba(0, 0, 0, 0.053),
+        0.6px 0.5px 2.3px rgba(0, 0, 0, 0.061),
+        1px 0.8px 2.9px rgba(0, 0, 0, 0.069),
+        1.5px 1.2px 3.8px rgba(0, 0, 0, 0.079),
+        2.5px 2px 5.3px rgba(0, 0, 0, 0.092),
+        5px 4px 10px rgba(0, 0, 0, 0.12)
+      ;
+        }
+        #box10::-webkit-scrollbar{
+            display: none !important;
+        }
+    #icon{
+        font-size: 25px !important;
+    }
+    #reels{
+        width: 25px !important;
+        height: 22px !important;
+        margin-top: 10%;
+    
+    }
+    #head{ 
+        width:40vw  !important;
+        
+        display: flex;
+        justify-content: center;
+      
+        align-items: center;
+         
+        
+    }
+    
+    #read{ 
+        
+        width: 40vw !important;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+        
+        
+        
+    }
+    
+    
+    
+    .card{position: relative;
+        top: 75px;
+        left: -700px;
+        width: 120px;
+        height: 65% !important;
+    }
+    #story1{
+        height:125px ;
+        position: absolute;
+        top : -10px
+        
+        
+    }
+    #add{ width: 35px; height:35px;
+        position: relative;
+        top: 60%;
+        left:38%;
+        clip-path: circle(17px at center);
+      }
+     #note{
+        background-color: rgb(252, 252, 252);
+        width: 84vw;
+        position: relative;
+        
+        margin-top: 5%;
+        padding: 10px ;
+        border-radius: 10px !important;
+        box-shadow:
+        0.1px 0.1px 0.6px rgba(0, 0, 0, 0.031),
+        0.2px 0.2px 1.2px rgba(0, 0, 0, 0.043),
+        0.4px 0.3px 1.7px rgba(0, 0, 0, 0.053),
+        0.6px 0.5px 2.3px rgba(0, 0, 0, 0.061),
+        1px 0.8px 2.9px rgba(0, 0, 0, 0.069),
+        1.5px 1.2px 3.8px rgba(0, 0, 0, 0.079),
+        2.5px 2px 5.3px rgba(0, 0, 0, 0.092),
+        5px 4px 10px rgba(0, 0, 0, 0.12)
+      ;
+    }
+    #text1{ margin-left: 5px;
+        width: 520px !important;
+        background-color:  #eeecec;
+    
+        border: #eeecec;
+        
+        
+    
+    }
+    .line-2{
+        height: 0.5px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background-color: rgb(231, 229, 229);
+    
+        
+    }
+    
+    #notepic{
+        width: 25px !important;
+         height: 25px !important;
+       
+    
+    }
+    #ball{
+        width: 25px;
+        height: 25px;
+    }
+    #note-icons-box{
+       
+     
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    #lists{ 
+        width: 24vw !important;
+        height: 40px !important;
+        border-radius: 10px !important;
+        background-color:  white ;
+        padding: 1%;
+        display: flex !important;
+        justify-content: center !important;
+        font-size: small !important;
+        font-weight: 550;
+    
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+         }
+    #lists:hover{
+        background-color: rgb(190, 190, 201);
+    }
+    
+
+}

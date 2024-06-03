@@ -1,0 +1,58 @@
+#list{ 
+
+    width: 90% !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    background-color:  #E8E9EB;
+    border-color:  #E8E9EB;
+    display: flex !important;
+    justify-content: flex-start;
+    font-weight: 500;
+    margin-bottom: -2px;
+     }
+#list:hover{
+    background-color: #ccccce;
+}
+#asidephoto{
+    width: 40px;
+    height: 35px;
+    margin-left: 0;
+    clip-path: circle(15px at center);
+    position: relative;
+    top: 1px;
+
+}
+.icon{
+    font-size: 30px;
+}
+.box{ width: 22vw; 
+    height: 80vh;
+    margin-left: -35px; 
+    
+}
+#ball{
+width: 40px;
+height: 35px;
+position : relative;
+top: -2px; 
+border-radius: 10px;
+}
+.line-1{
+    height: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(103, 103, 103);
+
+    
+}
+#ball1{
+    width: 35px;
+    height: 30px;
+    position : relative;
+    top: -2px; 
+    border-radius: 10px;
+    }
+    .box:hover{
+        overflow-y: auto;
+
+    }
